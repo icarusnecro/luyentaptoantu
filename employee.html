@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>employee</title>
+</head>
+<body>
+<script>
+    let login = prompt("Login:");
+
+    let message = (login == 'employee') ? 'Hello':
+        (login == 'director')? 'Greetings':
+            (login =='')?
+                'no login':
+                'canceled';
+    document.write(message);
+</script>
+</body>
+</html>
